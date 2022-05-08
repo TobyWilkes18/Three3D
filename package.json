@@ -23,6 +23,7 @@
     "fs-extra": "^8.1.0",
     "fs.realpath": "^1.0.0",
     "function-bind": "^1.1.1",
+    "gh-pages": "^3.2.3",
     "glob": "^7.2.0",
     "globby": "^6.1.0",
     "graceful-fs": "^4.2.10",
@@ -66,9 +67,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gh-pages -d dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TobyWilkes18/Three3D.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
-  }
+  "bugs": {
+    "url": "https://github.com/TobyWilkes18/Three3D.git/issues"
+  },
+  "homepage": "https://github.com/TobyWilkes18/Three3D.git#readme"
 }
